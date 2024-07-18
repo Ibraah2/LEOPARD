@@ -4,7 +4,7 @@
   "keywords": [
     "bot",
     "whatsapp",
-    "dreaded",
+    "leopard",
     "whatsapp-stickers",
     "anime",
     "whatsapp-bot",
@@ -20,7 +20,7 @@
   "success_url": "/",
   "env": {
     "PREFIX": {
-      "description": "Prefix of drex ai Ex: . , / , # , & etc. Put any symbol",
+      "description": "Prefix of Leopard Ex: . , / , # , & etc. Put any symbol",
        "required": true
 
     },
