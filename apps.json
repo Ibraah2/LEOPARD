@@ -15,7 +15,7 @@
     "md-bot"
   ],
   "website": "https://github.com/Ibraah2/LEOPARD#readme",
-  "repository": "https://github.com/Ibraah2/LEOPARD",
+  "repository": "https://github.com/Ibraah2/LEOPARD.git",
   "logo": "https://telegra.ph/file/f0868869d3df4cb3353c3.jpg",
   "success_url": "/",
   "env": {
