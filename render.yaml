@@ -1,0 +1,10 @@
+services:
+- type: web
+  name: LEOPARD
+  runtime: node
+  repo: https://github.com/Ibraah2/LEOPARD
+  plan: free
+  region: frankfurt
+  buildCommand: npm i
+  startCommand: node lib/client.js
+version: "1"
