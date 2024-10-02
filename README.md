@@ -27,7 +27,7 @@
 
 <a href='https://github.com/Ibraah2/LEOPARD/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=white'/></a>
 
-### 2. RUN ON REPLIT
+### 2. RUN ON REPLIT TO PAIR LEOPARD 🐆 
 <p align="centre">
 <a href="https://replit.com/@yohmkuu3148/Pairing-LEOPARD"
 
