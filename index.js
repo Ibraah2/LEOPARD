@@ -26,7 +26,7 @@ const packname = process.env.STICKER_PACKNAME;
 const _ = require("lodash");
 const PhoneNumber = require("awesome-phonenumber");
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/dreadexif'); 
- const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/dreadfunc');
+ const { isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/leopardfunc');
 const store = makeInMemoryStore({ logger: pino().child({ level: "silent", stream: "store" }) });
 
     const autoviewstatus = process.env.AUTOVIEW_STATUS || 'TRUE';
@@ -203,7 +203,7 @@ if (autobio === 'TRUE'){
       
       m = smsg(client, mek, store);
       const leopard = require("./leopard");
-dreaded(client, m, chatUpdate, store);
+leopard(client, m, chatUpdate, store);
     } catch (err) {
       console.log(err);
     }
