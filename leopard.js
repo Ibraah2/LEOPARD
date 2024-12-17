@@ -12,13 +12,13 @@ const acrcloud = require("acrcloud");
 // const node = require("node-fetch-commonjs");
 const ytdl = require("ytdl-core");
  const Client = new Genius.Client("jKTbbU-6X2B9yWWl-KOm7Mh3_Z6hQsgE4mmvwV3P3Qe7oNa9-hsrLxQV5l5FiAZO"); // Scrapes if no key is provided
-const { fetchUrl, isUrl, processTime } = require("./lib/dreadfunc");
+const { fetchUrl, isUrl, processTime } = require("./lib/leopardfunc");
 const { TelegraPh, UploadFileUgu, webp2mp4File, floNime } = require('./lib/leopardupload');
 const { Configuration, OpenAIApi } = require("openai");
 let setting = process.env.AI; 
 const { smsg, formatp, tanggal, formatDate, getTime,  sleep, clockString, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom } = require('./lib/leopardfunc');
 const { exec, spawn, execSync } = require("child_process");
-module.exports = dreaded = async (client, m, chatUpdate, store) => {
+module.exports = leopard = async (client, m, chatUpdate, store) => {
   try {
     var body =
       m.mtype === "conversation"
