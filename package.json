@@ -19,7 +19,7 @@
      "whatsapp-multi-device" 
    ], 
    "base": "https://github.com/DikaArdnt/Hisoka-Morou", 
-   "author": "Fortunatus/yusril", 
+   "author": "Ibraah2/yusril", 
    "license": "MIT", 
    "dependencies": { 
       "@whiskeysockets/baileys": "^6.4.0",
